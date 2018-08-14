@@ -6,7 +6,7 @@ Alpha = 8, Beta = 3, Word Size (n) = 32, Key Word (m) = 4, Key Size (mn) = 128, 
 
 # Note:
 29 value in XOR Shift, getted from: Word Size (n) - Beta = 32 bit - 3 bit = 29 bit. <br>
-24 value in XOR Shift, getted from: Word Size (n) - Alpha = 32 bit - 8 bit = 24 bit. 
+24 value in XOR Shift, getted from: Word Size (n) - Alpha = 32 bit - 8 bit = 24 bit. <br>
 <b>This spack class can process encryption more than 8 character (64 bit) of plain text. But key must 128 bit only</b>
 # Usage:
 
