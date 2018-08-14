@@ -16,10 +16,10 @@ Alpha = 8, Beta = 3, Word Size (n) = 32, Key Word (m) = 4, Key Size (mn) = 128, 
 
 include "_speck.class.php";
 
-$key_schedule=array();// this is for Key Expansion
+$key_schedule=array();// declaration of variable Key Expansion
 $key="abcdefghijklmnop";//Key is 16 characters(128 bit)
 $speck = new _SPECK();//instantiation 
-$key_schedule = $speck->expandKey($key, $key_schedule);//Create Key Expantion
+$key_schedule = $speck->expandKey($key, $key_schedule);//Create Key Expansion
 $plaintext="abcdefgh";//plain is 8 characters(64 bit)
 $ciphertext = $speck->encrypt($plaintext, $key_schedule);// call encrypt function	
 echo $ciphertext; // show Result
