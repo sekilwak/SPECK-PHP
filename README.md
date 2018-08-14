@@ -11,7 +11,6 @@ Alpha = 8, Beta = 3, Word Size (n) = 32, Key Word (m) = 4, Key Size (mn) = 128, 
 
 # Usage:
 
-
 <pre>
 
 
