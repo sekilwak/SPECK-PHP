@@ -9,6 +9,7 @@ Alpha = 8, Beta = 3, Word Size (n) = 32, Key Word (m) = 4, Key Size (mn) = 128, 
 24 value in XOR Shift, getted from: Word Size (n) - Alpha = 32 bit - 8 bit = 24 bit. 
 
 # Usage: 
+<?php
 
 include "_speck.class.php";
 
@@ -19,3 +20,5 @@ $key_schedule = $speck->expandKey($key, $key_schedule);//Create Key Expantion
 $plaintext="abcdefghijklmnop";//plain is 16 characters(128 bit)
 $ciphertext = $speck->encrypt($plaintext, $key_schedule);// call encrypt function	
 echo $ciphertext; // show Result
+
+?>
