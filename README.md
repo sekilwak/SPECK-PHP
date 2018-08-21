@@ -41,7 +41,7 @@ echo $plaintext; // show Result
 
 # Usage of Test Vector:
 
-<b>Data of test vector taken from "The Simon and Speck Families Of Lightweight of Block Ciper" Journal</b>
+<b>Data of test vector taken from "The Simon and Speck Families Of Lightweight of Block Ciper" Journal. Key, Plaintext and Ciphertext used in test vector is hexa decimal data.</b>
 
 <b>Speck64/96 data:</b> <br>
 Key: 13121110 0b0a0908 03020100<br>
