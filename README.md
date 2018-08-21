@@ -11,7 +11,7 @@ Alpha = 8, Beta = 3, Word Size (n) = 32, Key Word (m) = 4, Key Size (mn) = 128, 
 
 # Usage:
 
-<b>Encryption ( ciphertext result must "9f7952ec4175946c" ):</b>
+<b>Encryption :</b>
 <pre>
 
 include "_speck.class.php";
@@ -26,7 +26,7 @@ echo $ciphertext; // show Result
 </pre>
 
 
-<b>Decryption ( Plaintext result must "74614620736e6165" ):</b>
+<b>Decryption :</b>
 
 <pre>
 include "_speck.class.php";
@@ -39,7 +39,7 @@ $plaintext = $speck->decrypt($ciphertext, $key_schedule); // call decrypt functi
 echo $plaintext; // show Result
 </pre>
 
-# Test Vector:
+# Usage of Test Vector:
 
 <b>Data of test vector taken from "The Simon and Speck Families Of Lightweight of Block Ciper" Journal</b>
 
@@ -48,7 +48,7 @@ Key: 13121110 0b0a0908 03020100<br>
 Plaintext: 74614620 736e6165<br>
 Ciphertext: 9f7952ec 4175946c<br>
 
-<b>Encryption ( ciphertext result must "9f7952ec4175946c" ):</b>
+<b>Encryption ( ciphertext result must "9f7952ec4175946c" )</b>
 <pre>
 include "_speck.tv.class.php";
 
@@ -62,7 +62,7 @@ echo $ciphertext; // show Result
 
 </pre>
 
-<b>Decryption ( Plaintext result must "74614620736e6165" ):</b>
+<b>Decryption ( Plaintext result must "74614620736e6165" )</b>
 <pre>
 include "_speck.tv.class.php";
 $key_schedule=array();
